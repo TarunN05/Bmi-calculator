@@ -61,5 +61,9 @@ body{
 
    .container{
        margin: 20px 23px;
+       top: 120px;
+   }
+   .container label{
+       font-size: 1rem;
    }
 }
