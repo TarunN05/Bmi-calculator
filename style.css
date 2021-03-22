@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+   background-image: linear-gradient(120deg, #40826d, #40826d);
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   top:252px;
+   background-color: #fff;
+   margin: 0px 300px;
+}
+
+.container label{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
+.container h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
+
+.container input{
+    border: none;
+    border-bottom: 2px solid  #40826d;
+    line-height: 2;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container #bmi-output{
+    border-bottom: none;
+}
+
+.container .btn{
+    margin: 1rem 1rem;
+    line-height: 2.5;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #40826d;
+    color: rgb(247, 241, 241);
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:1000px){
+
+   .container{
+       margin: 20px 23px;
+   }
+}
