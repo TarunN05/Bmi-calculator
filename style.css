@@ -10,6 +10,16 @@
 body{
    background-image: linear-gradient(120deg, #40826d, #40826d);
 }
+
+h1{
+    text-align: center;
+    position: relative;
+    top:40px;
+    color: rgb(243, 235, 235);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
 .container{
    display: flex;
    flex-direction: column;
@@ -63,7 +73,8 @@ body{
        margin: 20px 23px;
        top: 120px;
    }
-   .container label{
+   /* .container label{
        font-size: 1rem;
    }
+} */
 }
